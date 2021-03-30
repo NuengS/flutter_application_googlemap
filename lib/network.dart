@@ -6,7 +6,7 @@ class NetworkHelper {
 
   final String url = 'https://api.openrouteservice.org/v2/directions/';
   final String apiKey =
-      '<YOUR API>';
+      '5b3ce3597851110001cf6248c512819a02a64dce87e8b7fc6ca7daca';
   final String journeyMode =
       'driving-car'; // Change it if you want or make it variable
   final double startLng;

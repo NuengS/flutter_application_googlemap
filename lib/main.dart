@@ -65,6 +65,9 @@ class MapSampleState extends State<MapSample> {
   }
 
   void _setCustomMapPin() async {
+    // destinationIcon = await BitmapDescriptor.fromAssetImage(
+    //     ImageConfiguration(), 'images/logocomsci.jpg');
+
     currentLocation = await getCurrentLocation();
     csLocationIcon = await BitmapDescriptor.fromAssetImage(
         ImageConfiguration(), 'images/logocomsci.jpg');
@@ -193,7 +196,7 @@ class MapSampleState extends State<MapSample> {
             onPressed: _goToBuilding8),
       ]),
       body: GoogleMap(
-        mapType: MapType.normal,
+        mapType: MapType.hybrid,
         myLocationEnabled: true,
         //mapType: MapType.normal,
         polygons: _polygons,
