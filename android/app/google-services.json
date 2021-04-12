@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47537153743",
+    "project_id": "polar-glazing-309207",
+    "storage_bucket": "polar-glazing-309207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47537153743:android:91f30d8155f40244d839ba",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_googlemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47537153743-e271i8ol3gdtu3kbl2cc1p18dh78vg35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDElZkIy8EB1Dr_DezaDooC03tspkoQq2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47537153743-e271i8ol3gdtu3kbl2cc1p18dh78vg35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
